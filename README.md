@@ -20,4 +20,4 @@ Enjoy it ;)!
 Check the users created on [http://localhost:8000/admin/](http://localhost:8000/admin/)
 
 * username: admin
-* password: changeme# openid-wargaming-django-example
+* password: changeme
