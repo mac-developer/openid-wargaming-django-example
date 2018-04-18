@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Example - This will be your result page</title>
+    </head>
+    <body>
+        <h1>Result example page</h1>
+        <div>
+            {% if authenticated %}
+            <p>Wargaming Nickname: <strong>{{ nickname }}</strong></p>
+            <p>Wargaming Account ID: <strong>{{ account_id }}</strong></p>
+            <p>You are authenticated with this Wargaming account: <strong>{{ request.user.username }}</strong></p>
+            <p><a href="{% url 'logout' %}">Logout</a></p>
+            {% else %}
+            <p style='color: rgb(255, 0, 0);'><strong>Authentication error</strong></p>
+            <p><a href="{% url 'first' %}">Try again ;)</a></p>
+            {% endif %}
+        </div>
+    </body>
+</html>

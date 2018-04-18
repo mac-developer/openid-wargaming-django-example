@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Example - This will be your login page</title>
+    </head>
+    <body>
+        <h1>Login example page</h1>
+        <div>
+        {% if user.is_authenticated %}
+            <p>You are authenticated with this Wargaming account: <strong>{{ request.user.username }}</strong></p>
+            <p><a href="{% url 'logout' %}">Logout</a></p>
+        {% else %}
+            <a href="{{ url }}">Click here to login with your wargaming account.</a>
+        {% endif %}
+        </div>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+**.pyc
+**.DS_Store
+.remote-sync.json
+**.log
+**.log.[0-9]
+djproject/db.sqlite3
+djproject/celerybeat.pid
+djproject/static
+data/mysql/
+djproject/db.sqlite3
+.env
+data.json
+uwsgi.develop.ini
+.vscode/settings.json
+
