@@ -1,6 +1,6 @@
 # Quickstart
 
-Remembe use virtualenv, virtualenvwrapper or pipenv to give up a clean workspace.
+Remember use virtualenv, virtualenvwrapper or pipenv to give up a clean workspace.
 
 ```
 $ pip install -r requirements.txt
